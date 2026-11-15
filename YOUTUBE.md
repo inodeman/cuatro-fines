@@ -1,7 +1,7 @@
 # CUATRO FINES — fichas de YouTube
 
 Antología de cuatro películas de media hora. Animación 3D, apocalipsis sombrío, sin diálogos.
-Máster: 3840×2160, 24 fps, 30:00, estéreo.
+Máster: 3840×2160, 12 fps, 30:00, estéreo.
 
 Archivos:
 
@@ -37,7 +37,7 @@ Capítulos
 
 CUATRO FINES es una antología de cuatro películas de media hora. Animación 3D, sin diálogos: ceniza, marea, tierra y silencio.
 
-Máster: 3840×2160 · 24 fps · 30:00 · estéreo.
+Máster: 3840×2160 · 12 fps · 30:00 · estéreo.
 
 Una película de InodeAi.
 
@@ -68,7 +68,7 @@ Capítulos
 
 CUATRO FINES es una antología de cuatro películas de media hora. Animación 3D, sin diálogos: ceniza, marea, tierra y silencio.
 
-Máster: 3840×2160 · 24 fps · 30:00 · estéreo.
+Máster: 3840×2160 · 12 fps · 30:00 · estéreo.
 
 Una película de InodeAi.
 
@@ -99,7 +99,7 @@ Capítulos
 
 CUATRO FINES es una antología de cuatro películas de media hora. Animación 3D, sin diálogos: ceniza, marea, tierra y silencio.
 
-Máster: 3840×2160 · 24 fps · 30:00 · estéreo.
+Máster: 3840×2160 · 12 fps · 30:00 · estéreo.
 
 Una película de InodeAi.
 
@@ -130,7 +130,7 @@ Capítulos
 
 CUATRO FINES es una antología de cuatro películas de media hora. Animación 3D, sin diálogos: ceniza, marea, tierra y silencio.
 
-Máster: 3840×2160 · 24 fps · 30:00 · estéreo.
+Máster: 3840×2160 · 12 fps · 30:00 · estéreo.
 
 Una película de InodeAi.
 
