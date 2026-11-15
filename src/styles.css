@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #0a0908;
+  --color-night: #161310;
+  --color-ash: #8a8178;
+  --color-bone: #e6dcc8;
+  --color-ember: #c4552a;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    background: var(--color-void);
+    color: var(--color-bone);
+  }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    background: var(--color-void);
+    color: var(--color-bone);
+    font-family: var(--font-sans);
+    font-weight: 360;
+    line-height: 1.5;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--color-ember);
+    color: var(--color-void);
+  }
+}
+
+.scrim {
+  background: linear-gradient(to top, var(--color-void) 0%, transparent 62%);
+}
+
+.scrim-full {
+  background: linear-gradient(
+    to top,
+    var(--color-void) 0%,
+    color-mix(in srgb, var(--color-void) 55%, transparent) 42%,
+    transparent 70%
+  );
+}
+
+@keyframes plate-in {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1.16) translate3d(-1.8%, -1%, 0);
+  }
+}
+
+@keyframes plate-in-alt {
+  from {
+    transform: scale(1.14) translate3d(-1.4%, 0, 0);
+  }
+  to {
+    transform: scale(1.05) translate3d(1.2%, 0.8%, 0);
+  }
+}
+
+.plate-drift {
+  animation-name: plate-in;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.plate-drift-alt {
+  animation-name: plate-in-alt;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .plate-drift,
+  .plate-drift-alt {
+    animation: none;
+  }
+}
+
+input[type="range"] {
+  accent-color: var(--color-ember);
+  height: 2rem;
+}
